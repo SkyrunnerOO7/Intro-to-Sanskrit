@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.Language.ApplicationRelease">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Intro to Sanskrit"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Language_app">
+        <activity
+            android:name="com.Language.ApplicationRelease.ColorsActivity"
+            android:exported="true"
+            android:label="Colors"/>
+        <activity
+            android:name="com.Language.ApplicationRelease.FamilyActivity"
+            android:exported="true"
+            android:label="Family"/>
+        <activity
+            android:name="com.Language.ApplicationRelease.NumbersActivity"
+            android:exported="true"
+            android:label="Numbers"/>
+        <activity
+            android:name="com.Language.ApplicationRelease.PhraseActivity"
+            android:exported="true"
+            android:label="Phrases"/>
+        <activity
+            android:name="com.Language.ApplicationRelease.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
